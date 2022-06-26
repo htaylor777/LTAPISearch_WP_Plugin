@@ -1,6 +1,19 @@
 <?php
-
-
+/**
+ * @link       https://ltwebdev.com
+ * @since      1.0.0
+ *
+ * @package    lt_api_searches
+ * @subpackage lt_api_searches/includes
+ * 
+ * Search functions to return from user form submissions:
+ * @search_by_food
+ * @search_by_summary_id
+ * @search_by_recipe_id
+ * @search_by_ingredient
+ *  - requires user to obtain a spoonacular_apikey_setting
+ *- user can control how many recipes to pull down
+*/
 
 function search_by_food($food) {  
     echo "<h2> search by food: " . $food . "</h2>";
@@ -36,6 +49,7 @@ if ( is_array( $result ) && ! is_wp_error( $result ) ) {
     echo "Food array not found: search_by_food($food)";
  }
 }
+
 
 
 function search_by_summary_id($id) {  

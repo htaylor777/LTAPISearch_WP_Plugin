@@ -1,4 +1,11 @@
 <?php
+/**
+* @link       https://ltwebdev.com
+* @since      1.0.0
+*
+* @package    lt_api_searches
+* @subpackage lt_api_searches/admin/partials -> dashboard
+*/
 ?>
  <h1>LT API Search</h1>
 

@@ -6,7 +6,7 @@
  * A class definition that includes attributes and functions used across both the
  * public-facing side of the site and the admin area.
  *
- * @link       http://example.com
+ * @link       https://ltwebdev.com
  * @since      1.0.0
  *
  * @package    lt_api_searches
@@ -25,7 +25,7 @@
  * @since      1.0.0
  * @package    lt_api_searches
  * @subpackage lt_api_searches/includes
- * @author     Your Name <email@example.com>
+ * @author     Larry Taylor <email@example.com>
  */
 class lt_api_searches {
 

@@ -3,7 +3,7 @@
 /**
  * Fired during plugin deactivation
  *
- * @link       http://example.com
+ * @link       https://ltwebdev.com
  * @since      1.0.0
  *
  * @package    lt_api_searches

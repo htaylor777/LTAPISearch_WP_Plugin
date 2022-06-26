@@ -6,7 +6,7 @@
  * Loads and defines the internationalization files for this plugin
  * so that it is ready for translation.
  *
- * @link       http://example.com
+ * @link       https://ltwebdev.com
  * @since      1.0.0
  *
  * @package    lt_api_searches
@@ -22,7 +22,7 @@
  * @since      1.0.0
  * @package    lt_api_searches
  * @subpackage lt_api_searches/includes
- * @author     Your Name <email@example.com>
+ * @author     Larry Taaylor <email@example.com>
  */
 class lt_api_searches_i18n {
 

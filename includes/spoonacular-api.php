@@ -1,9 +1,17 @@
 <?php
+/**
+ * @link       https://ltwebdev.com
+ * @since      1.0.0
+ *
+ * @package    lt_api_searches
+ * @subpackage lt_api_searches/includes
+ * */
 
 // load search functions
 require_once plugin_dir_path( dirname( __FILE__ ) ) . 'includes/lt-api-spoon-functions.php';
 
-// spoonacular API Searches ----------------------------
+// spoonacular API Searches ----------------------------------------
+// user to add this shortcode on thier site to implement search page
 add_shortcode( 'ltspoondata', 'spoonacular_api_shortcode' );
 
 
