@@ -1,0 +1,83 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+ body { background:#fff;}
+
+
+input.search-ingredient,
+input.search-id,
+input.search-id2,
+input.search-spoon {   
+     height:32px;
+     font-size: 18px;
+     border-radius:5px;
+     color:#424247;
+     text-align: center;
+}
+
+input.found{  
+    height:32px;
+    font-size: 18px;
+    border-radius:5px;
+    color:#0d4d10; 
+    text-align: center;
+}
+
+
+input.buttons { 
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius:5px;
+      }
+
+input.buttons:hover {   
+background-color:#1b6596;
+} 
+
+.title{ 
+    color: #288a2b;
+    font-size: 1.5em;
+}
+
+.small { 
+    width: 10%;
+}
+
+.large{  
+    width: 30%;
+}
+
+@media screen and (max-width: 768px) { 
+.large{ width: 100%;}
+.small{ width: 100%;}
+label.lbl { 
+    text-align:left !important; 
+    text-justify:left !important; 
+    font-weight: 700;
+ word-spacing: 1px;}
+.center {text-align:left !important; margin-right:100px;}
+}
+
+.center {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
+}
+
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+ }
